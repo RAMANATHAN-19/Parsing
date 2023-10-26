@@ -1,6 +1,6 @@
 import csv
 
-file_path = r"E:\Venu_DM_Team\forParsing_task.xls"
+file_path = r""
 
 data_db = []
 file_data = open(file_path,'r')
