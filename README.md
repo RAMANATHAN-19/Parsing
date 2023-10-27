@@ -12,7 +12,7 @@ Prerequisites: Ensure you have Python installed on your system.
 
 File Preparation:
 
-Place the text file (forParsing_task.xls) you want to convert in the same directory as the script, or specify the file path in the script.
+Place the file (forParsing_task.xls) you want to convert in the same directory as the script, or specify the file path in the script.
 Verify that the text file follows a specific format where each line is divided into 12 fields separated by the '|' character, and lines containing ' Stat' should be skipped.
 Running the Script:
 
