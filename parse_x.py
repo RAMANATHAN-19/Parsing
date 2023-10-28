@@ -23,4 +23,4 @@ with open(file_path, 'r') as file_data:
             data_db.append(data_dict)
 
 df = pd.DataFrame(data_db)
-df.to_csv('sample.csv', index=False)
+df.to_csv('output.csv', index=False)
