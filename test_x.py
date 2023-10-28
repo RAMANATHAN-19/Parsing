@@ -24,7 +24,7 @@ for i in file_data.readlines():
 
 header = data_db[0].keys()
 
-with open('sample.csv', 'w', newline='') as file:
+with open('output.csv', 'w', newline='') as file:
     writer = csv.DictWriter(file, fieldnames=header)
     writer.writeheader()
     writer.writerows(data_db)
